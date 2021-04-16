@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #B91450;
+}
+
+.maxi_container{
+    width: 80vw;
+    
+    margin: auto;
+    text-align: center;
+}
+
+.container_utente{
+    
+}
+.container_risultato{
+    
+    border-radius: 8px;
+    background-color: white;
+    padding: 20px;
+}
+.h1_stile{
+    padding: 20px 0 ;
+}
+.text_white{
+    color: white;
+}
+
+.label_style{
+    display: block;
+    padding: 5px;
+}
+
+.container_input{
+
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.btn_stile{
+    padding: 5px;
+    margin: 0 25px;
+    border: solid 1px grey;
+    background-color: #aba5a5;
+    border-radius: 3px;
+
+}
+
+.btn_text_style{
+    text-transform: uppercase;
+}
+
+.container_btn{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
