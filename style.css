@@ -10,22 +10,23 @@ body{
 
 .maxi_container{
     width: 80vw;
-    
     margin: auto;
-    text-align: center;
+    
 }
 
 .container_utente{
-    
+    text-align: center;
+    border-radius: 8px;
+    background-color: white;
+    padding: 20px;
 }
 .container_risultato{
-    
-    border-radius: 8px;
     background-color: white;
     padding: 20px;
 }
 .h1_stile{
     padding: 20px 0 ;
+    text-align: center;
 }
 .text_white{
     color: white;
@@ -34,6 +35,8 @@ body{
 .label_style{
     display: block;
     padding: 5px;
+    color: #BF2A60 ;
+    font-weight: 700;
 }
 
 .container_input{
@@ -43,6 +46,8 @@ body{
     padding: 15px;
 }
 .btn_stile{
+    color:#BF2A60 ;
+    font-weight: 900;
     padding: 5px;
     margin: 0 25px;
     border: solid 1px grey;
@@ -60,3 +65,57 @@ body{
     padding-bottom: 20px;
 
 }
+
+.table_style{
+    width: 100%;
+}
+
+table,
+tr,
+td{
+    border-collapse: collapse;
+}
+
+.name_style{
+    background-color: #808080;
+}
+
+
+.input_style{
+    max-width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px #BF2A60;
+}
+
+
+
+/* utiliti class */
+.pt_10{
+    padding-top: 10px;
+}
+.pb_10{
+    padding-bottom: 10px;
+}
+.pad_all_15{
+    padding: 15px;
+}
+
+.text_align{
+    text-align: center;
+}
+
+.table_border_top{
+    border-top:solid 1px #808080;
+}
+
+.table_border_bottom{
+    border-bottom:solid 1px #808080;
+}
+
+/* .bordo{
+    border: solid 1px black;
+} */
+
+
+
