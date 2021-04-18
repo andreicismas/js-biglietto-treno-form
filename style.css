@@ -23,6 +23,8 @@ body{
 .container_risultato{
     background-color: white;
     padding: 20px;
+    transition: 0.2s;
+    /* opacity: 0; */
 }
 .h1_stile{
     padding: 20px 0 ;
