@@ -55,12 +55,25 @@ body{
     border: solid 1px grey;
     background-color: #aba5a5;
     border-radius: 3px;
+    transition: 1s;
 
 }
 
 .btn_text_style{
     text-transform: uppercase;
+
 }
+
+.btn_stile:hover {
+    background-color: rgb(91, 46, 136);
+}
+
+/* .btn_stile:active{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+} */
+
 
 .container_btn{
     padding-top: 20px;
