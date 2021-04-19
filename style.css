@@ -48,31 +48,32 @@ body{
     padding: 15px;
 }
 .btn_stile{
+    width: 80px;
+    height: 40px;
+    border: none;
     color:#BF2A60 ;
-    font-weight: 900;
-    padding: 5px;
-    margin: 0 25px;
-    border: solid 1px grey;
     background-color: #aba5a5;
     border-radius: 3px;
-    transition: 1s;
+    font-weight: 900;
 
-}
+    padding: 5px;
+    margin: 0 25px;
 
-.btn_text_style{
     text-transform: uppercase;
+    transition: ease-out 0.5s ;
+    outline: none;
+    position: relative;
+
+    z-index: 1;
 
 }
-
-.btn_stile:hover {
-    background-color: rgb(91, 46, 136);
+.btn_stile:hover{
+    box-shadow:  inset 80px 0 0 0 #BF2A60;
+    cursor: pointer;
+    color: black;
+   
 }
 
-/* .btn_stile:active{
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-} */
 
 
 .container_btn{
